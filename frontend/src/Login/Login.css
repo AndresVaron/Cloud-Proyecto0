@@ -1,0 +1,114 @@
+.divLoginAdmin {
+  display: flex;
+  background-color: white;
+  width: 100vw;
+  height: 100vh;
+}
+
+.loginAdmin {
+  background-color: hsl(208, 81%, 24%);
+  height: 275px;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  text-align: center;
+  position: relative;
+  border-radius: 20px;
+  padding: 10px;
+  padding-top: 50px;
+  margin: auto;
+}
+input {
+  border: 0;
+  border-radius: 2px;
+  width: 80%;
+  padding: 5px;
+  margin: 10px;
+  position: relative;
+}
+.labelLogin {
+  width: 100%;
+  color: white !important;
+}
+.divBotonLogin {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  bottom: -10px;
+  position: relative;
+}
+
+.botonLogin {
+  padding: 5px;
+  margin: 5px;
+  color: white;
+  background-color: #2d6fa8;
+  border: 0;
+  width: 120px;
+  height: 44px;
+  border-radius: 5px;
+  position: relative;
+}
+
+.botonRestablecer {
+  padding: 5px;
+  margin: 5px;
+  color: white;
+  background-color: #2d6fa8;
+  border: 0;
+  width: 220px;
+  height: 44px;
+  border-radius: 5px;
+  position: relative;
+}
+
+.botonOlvidar {
+  padding: 5px;
+  margin: 5px;
+  border: 0;
+  width: 220px;
+  height: 44px;
+  border-radius: 5px;
+  position: relative;
+  color: white;
+  background-color: hsl(208, 81%, 24%);
+  text-decoration: underline;
+}
+
+.logoSincoToolsLogin {
+  position: relative;
+  width: 90%;
+}
+.errorLogin {
+  color: rgb(255, 0, 0);
+  font-weight: 300;
+}
+
+.curtainLogin {
+  height: 100vh;
+  width: 100vw;
+  background: rgb(0, 0, 0, 0.5);
+  z-index: 5;
+  position: absolute;
+}
+
+.modalLogin {
+  text-align: center;
+  margin: 10px;
+}
+
+.modalLogin p {
+  font-size: 18px;
+  margin-bottom: 8px;
+}
+
+@media screen and (max-width: 768px) {
+  .loginAdmin {
+    border-radius: 0;
+    width: 100%;
+    height: 100%;
+  }
+}

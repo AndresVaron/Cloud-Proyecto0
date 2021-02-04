@@ -1,0 +1,17 @@
+.divCreate {
+  background-color: hsl(208, 81%, 24%);
+  height: 650px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  text-align: center;
+  position: relative;
+  border-radius: 20px;
+  padding: 30px;
+  margin: auto;
+}
+
+.divCreate input {
+  width: 270px;
+}

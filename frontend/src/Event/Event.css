@@ -1,0 +1,19 @@
+.divEventDet {
+  background-color: lightgray;
+  color: black;
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  text-align: center;
+  position: relative;
+  border-radius: 20px;
+  padding: 30px;
+  margin: auto;
+}
+
+.labelDetail {
+  width: 100%;
+  color: black;
+  font-size: 20px;
+}
