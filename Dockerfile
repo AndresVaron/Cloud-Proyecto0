@@ -4,7 +4,7 @@ COPY /frontend/package*.json ./
 RUN npm install
 COPY ./frontend/ .
 # RUN sed -i "s|"",|'http://172.24.98.180:8080/api',|g" src/AxiosAPI.js
-RUN sed -i "s|"",|'http://localhost:8080/api',|g" src/AxiosAPI.js
+RUN sed -i "s|'',|'http://localhost:8080/api',|g" src/AxiosAPI.js
 RUN npm run-script build
 
 FROM python:3.9-slim as base
